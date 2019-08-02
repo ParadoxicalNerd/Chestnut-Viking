@@ -35,7 +35,7 @@ def get_map():
 class myGame(arcade.Window):
     def __init__(self, height, width):
         super().__init__(
-            width, height, "30 Second Dash: Prison Break", fullscreen=False
+            width, height, "Chestnut Viking", fullscreen=False
         )
         self.tile_sheet = get_map()
 
